@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Risk project</string>
+    <string name="simulationmode">Simulation Mode</string>
+    <string name="playingmode">Playing Mode</string>
+    <string name="exit">Exit</string>
+    <string name="choosing2">You may choose two of the following options</string>
+    <string name="choosing1">You may choose one of the following options</string>
+</resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backskull"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="50dp"
+            android:text="Let's Fight"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backskull"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:text="          Attacker                     Defender "
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backskull"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:text=""
+            android:layout_weight="1"
+            android:id="@+id/values"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:background="@color/btn"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/attackerlayout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text1"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text2"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text3"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/defenderlayout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text4"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text5"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text6"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="@color/backskull"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:background="@color/backskull"
+                android:text="-"
+
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/decrease"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backskull"
+                android:text="3"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/valueofnerds"
+                />
+
+            <Button
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:background="@color/backskull"
+                android:text="+"
+
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/increase"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/backskull"
+                android:text="Fight"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/fight"/>
+
+            <Button
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:background="@color/backskull"
+                android:text="-"
+
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/decreasedef"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/backskull"
+                android:text="3"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/valueofnerdsdef"
+                />
+
+            <Button
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:background="@color/backskull"
+                android:text="+"
+
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/increasedef"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/exit"/>
+    </LinearLayout>
+
+</ScrollView>
+
